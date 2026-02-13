@@ -221,4 +221,4 @@ predict_image(model, image_index=80, dataset=test_dataset)
 
 
 ## RESULT
-Include your result here.
+Thus, a convolutional deep neural network for image classification and to verify the response for new images is to developed successfully
