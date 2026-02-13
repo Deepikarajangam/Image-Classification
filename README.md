@@ -9,22 +9,55 @@ To Develop a convolutional deep neural network for image classification and to v
 Include the Problem Statement and Dataset.
 
 ## Neural Network Model
+<img width="1082" height="455" alt="image" src="https://github.com/user-attachments/assets/0b99bad5-0532-428f-997f-059e1c6bbb8e" />
 
 
 ## DESIGN STEPS
 
-### STEP 1:
-Write your own steps
+### STEP 1:Define the Objective
+Formulate the task of classifying fashion items (shirts, shoes, bags, etc.) using a CNN model.
 
-### STEP 2:
+### STEP 2:Dataset Preparation
+Load the Fashion MNIST dataset and split it into training and testing sets.
+### STEP 3: Data Preprocessing
 
-### STEP 3:
+Convert images to tensors
 
+Normalize pixel intensity values
 
+Use DataLoaders for batching and shuffling
+### STEP 4:Construct the CNN
+Design a neural network with:
+
+Convolutional layers to extract features
+
+ReLU activations for non-linearity
+
+Pooling layers to reduce spatial dimensions
+
+Fully connected layers for final classification
+### STEP 5:Train the Model
+Use CrossEntropyLoss as the loss function
+
+Optimize with the Adam optimizer
+
+Train over multiple epochs, monitoring loss and accuracy
+### STEP 6:Evaluate Performance
+Test the trained model on unseen images
+
+Compute accuracy, precision, recall, and F1-score
+
+Generate a confusion matrix to analyze misclassifications
+### STEP 7:Deployment and Visualization
+Save the trained model for future use
+
+Visualize sample predictions
+
+Integrate the model into applications if required
 ## PROGRAM
 
-### Name:
-### Register Number:
+### Name:Deepika R
+### Register Number:212224040061
 ```import torch
 import torch.nn as nn
 import torch.optim as optim
