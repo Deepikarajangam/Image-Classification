@@ -118,9 +118,10 @@ def train_model(model, train_loader, num_epochs=3):
 
 ### Classification Report
 
-
-
 <img width="823" height="500" alt="image" src="https://github.com/user-attachments/assets/84fb287f-4829-489d-a544-9ac43a3c6cf5" />
+
+
+
 ### New Sample Data Prediction
 <img width="674" height="443" alt="image" src="https://github.com/user-attachments/assets/9943c270-0c04-4b8c-945e-7b0a7c022c8e" />
 
